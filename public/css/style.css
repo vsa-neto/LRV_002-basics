@@ -1,0 +1,8 @@
+
+/* Подключение компонентов */
+@import './components/buttons.css';
+@import './components/tables.css';
+@import './components/forms.css';
+
+/* Подключение разметки страниц */
+@import './layouts/main-layout.css';

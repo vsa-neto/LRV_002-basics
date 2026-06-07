@@ -1,0 +1,8 @@
+
+body {
+    max-width: 1200px;
+    min-width: 800px;
+    font-family: sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
