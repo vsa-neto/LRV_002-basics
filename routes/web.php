@@ -1,15 +1,13 @@
 <?php
 
-// use App\Http\Controllers\CarControler;
 use App\Http\Controllers\GroupController;
 use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-// Route::get('/cars', [CarControler::class, 'index']);
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::redirect('/', '/groups');
 
 Route::get('/groups', [GroupController::class, 'index'])->name('groups.index');
 Route::get('/groups/create', [GroupController::class, 'create'])->name('groups.create');
